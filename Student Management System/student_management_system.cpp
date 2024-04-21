@@ -44,7 +44,7 @@ void enter()
 
 				cout<<"Enter contact ";
 
-				cin>>arr5[I];
+				cin>>arr5[i];
 
 		    }
 
