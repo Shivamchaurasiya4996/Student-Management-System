@@ -1,7 +1,4 @@
  #include<iostream>
-
-
-
 using namespace std;
 
 string arr1[20],arr2[20],arr3[20],arr4[20],arr5[20];
@@ -11,8 +8,7 @@ int total=0;
 void enter()
 
 {
-
-		int ch=0;
+                       int ch=0;
 
 			cout<<"How many students do u want to enter??"<<endl;
 
@@ -48,24 +44,18 @@ void enter()
 
 				cout<<"Enter contact ";
 
-				cin>>arr5[i];
+				cin>>arr5[I];
 
-				
-
-			}
+		    }
 
 	    	}
 
 	    	else
 
 	    	{
-
-	    		
-
-	    		for(int i=total;i<ch+total;i++)
+			for(int i=total;i<ch+total;i++)
 
 			{
-
 				cout<<"\nEnter the Data of student "<<i+1<<endl<<endl;
 
 				cout<<"Enter name ";
@@ -94,9 +84,7 @@ void enter()
 
 			}
 
-	
-
-}
+	}
 
 void show()
 
@@ -252,8 +240,6 @@ void update()
 
 		}
 
-
-
 void deleterecord()
 
 {
@@ -330,11 +316,7 @@ void deleterecord()
 
 				}
 
-				 
-
-			
-
-			else 
+				 else 
 
 			{
 
